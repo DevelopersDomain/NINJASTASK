@@ -1,0 +1,48 @@
+.headermain{
+    border-bottom: 1px solid powderblue ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+.headermain .logo img{
+    height: 40px;
+}
+.headermain .leftH{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.headermain .rightH{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.rightH img{
+    height: 24px;
+    object-fit: contain;
+    border-radius: 50%;
+    
+}
+#profileLogo{
+    height: 36px;
+}
+.headermain div{
+    margin: 0 5px;
+}
+.headermain nav a{
+    margin: 0 10px;
+}
+@media screen and (max-width: 800px) {
+    .headermain .leftH{
+
+        flex-direction: column;
+    }
+    .headermain .rightH{
+        
+        flex-direction: row;
+    }
+  }
